@@ -1,0 +1,32 @@
+{% load static %}
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+/* Full height image header */
+.bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url( '/static/img/mac.jpg');
+    min-height: 100%;
+}
+.w3-bar .w3-button {
+    padding: 16px;
+}
+</style>
+<div class="bgimg">
+  <div class="topleft">
+    <p>Petsline INDIA</p>
+  </div>
+  <img src="{% static "img/mac.jpg" %}" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Easy Key">
+  <div class="middle">
+    <h1>COMING SOON</h1>
+    <hr>
+    <p>35 days</p>
+  </div>
+  <div class="bottomleft">
+    <p>Some text</p>
+  </div>
+</div>
